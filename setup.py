@@ -1,7 +1,7 @@
 import os.path
 from setuptools import setup, find_packages
 
-import stun
+import py3stun
 
 
 def main():
@@ -10,7 +10,7 @@ def main():
 
     setup(
         name='py3stun',
-        version=stun.__version__,
+        version=py3stun.__version__,
         packages=find_packages(),
         zip_safe=False,
         license='MIT',
